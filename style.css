@@ -15,8 +15,6 @@ body {
     margin: 0 auto;
     border-bottom: 10px solid #1c95e6;
     text-align: center;
-    padding: 10px;
-    font-size: 20px
 }
 
 .container {
@@ -36,16 +34,17 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+
+.cafe-card img {
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 10px;
+}
 .cafe-adress {
     padding: 5px;
 }
 
-img {
-    max-width: 100%;
-    max-height: auto;
-    border-radius: 10px;
 
-}
 
 .description {
     color: #535353d5;
